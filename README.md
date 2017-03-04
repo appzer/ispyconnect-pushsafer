@@ -21,7 +21,7 @@ Open source camera security software. iSpy provides security, surveillance, moti
 9. iSpy provide 3 variables to merge {ID}, {NAME}, {MSG}
 10. these vars you can use in the pushsafer parameter title or message
 
-## Do not use any of these iSpy variables in a pushsafer parameter m=message alone, because when a var has a empty string and a message m transfered empty to pushsafer, the push-notification can not send out
+## Do not use any of these iSpy variables in the pushsafer parameter m=message alone, because when a var has a empty string and a message m transfered empty to pushsafer, the push-notification can not send out
 
 ## Example URLs
 
@@ -30,8 +30,6 @@ Open source camera security software. iSpy provides security, surveillance, moti
 	https://www.pushsafer.com/api?k=XXXXXXXXXXXXXXXXXXXX&d=418&i=82&s=25&v=3&t=iSpy%20Alert&m=Movement%20detected%20in%20living%20room%0A{ID}%3A%20{NAME}
   
 ## Screenshots of iSpy Push-Notifications
-
-Client App
 
 Screenshot Client App
 
